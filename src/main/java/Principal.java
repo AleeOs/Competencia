@@ -29,12 +29,13 @@ public class Principal {
         switch (opcion){
             case 1:
                 String NombreAtleta = JOptionPane.showInputDialog("Ingresar Nombre :");
-            break;
-            
-            case 2:
                 String NombreCampeon = JOptionPane.showInputDialog("Ingresar Nombre :");
                 String Nacionalidad = JOptionPane.showInputDialog("Ingresar Nacionalidad :");
                 String Tiempo = JOptionPane.showInputDialog("Ingresar Tiempo :");
+            break;
+            
+            case 2:
+                
             break;
             
              case 3:

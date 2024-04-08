@@ -8,17 +8,30 @@
  * @author 1061017158
  */
 public class Atleta {
+   //Atributos
     private String Nombre;
-    private String Nacionalidad;
-    private int Hora;
-    private int Minutos;
-
-    public Atleta(String Nombre, String Nacionalidad, int Hora, int Minutos) {
+    private String Nacionalida;
+    private double Tiempo;
+    //CP
+    public Atleta(String Nombre, String Nacionalida, double Tiempo) {
         this.Nombre = Nombre;
-        this.Nacionalidad = Nacionalidad;
-        this.Hora = Hora;
-        this.Minutos = Minutos;
+        this.Nacionalida = Nacionalida;
+        this.Tiempo = Tiempo;
     }
-    
+    //CNP
+    public Atleta() {
+    }
+    //Getters
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public String getNacionalida() {
+        return Nacionalida;
+    }
+
+    public double getTiempo() {
+        return Tiempo;
+    }
     
 }
